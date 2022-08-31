@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/alerts_menu.xml" value="0.1635" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/border_style.xml" value="0.1635" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/checkbox_selector.xml" value="0.1835" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/circle_blue_shape.xml" value="0.1835" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/dashboard_menu.xml" value="0.1635" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/et_custom.xml" value="0.184" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/phone_usage_menu.xml" value="0.1635" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/drawable/social_media_menu.xml" value="0.1635" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/activity_auth.xml" value="0.2453125" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/bottom_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_add_child.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_add_device.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_add_profile.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_alerts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_confirm_profile.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_congrats.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_congrats_one.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_congrats_two.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_phone_usage.xml" value="0.264" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_signin_one.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_signin_three.xml" value="0.264" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_signin_two.xml" value="0.2" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_social_media.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_space_chose.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/fragment_welcome.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/layout/item_blog.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/wimobi/AndroidStudioProjects/demo_android/app/src/main/res/xml/activity_main_xml_constraintlayout_scene.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

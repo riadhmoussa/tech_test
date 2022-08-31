@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/primary_color"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="81dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/in_shield_img"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_sign_in"
+                android:textColor="@color/white"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5sp"
+                android:fontFamily="@font/abel_regular"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/btnSignInEmail"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/email_btn_img"
+                android:scaleType="fitXY"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="26dp"
+                android:src="@drawable/gmail_btn_img"
+                android:scaleType="fitXY"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="26dp"
+                android:src="@drawable/fb_btn_img"
+                android:scaleType="fitXY"
+                android:layout_height="50dp"/>
+            <TextView
+                android:id="@+id/btnCreateAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_account_signin"
+                android:textColor="@color/white"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5sp"
+                android:fontFamily="@font/abel_regular"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

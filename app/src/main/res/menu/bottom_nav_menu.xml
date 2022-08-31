@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/dashboard_menu"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/phoneUsageFragment"
+        android:title=""
+        android:icon="@drawable/phone_usage_menu"
+         />
+
+    <item
+        android:id="@+id/socialMediFragment"
+        android:title=""
+        android:icon="@drawable/social_media_menu"
+         />
+
+    <item
+        android:id="@+id/alertsFragment"
+        android:title=""
+        android:icon="@drawable/alerts_menu"
+         />
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/dashboardFragment"
+    android:id="@+id/nav_graph_main.xml">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.demo_android.presentation.fragments.DashboardFragment"
+        android:label="dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_alertsFragment"
+            app:destination="@id/alertsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneUsageFragment"
+        android:name="com.example.demo_android.presentation.fragments.PhoneUsageFragment"
+        android:label="phoneUsage">
+        <action
+            android:id="@+id/action_phoneUsageFragment_to_dashboardFragment2"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_phoneUsageFragment_to_alertsFragment2"
+            app:destination="@id/alertsFragment" />
+        <action
+            android:id="@+id/action_phoneUsageFragment_to_socialMediFragment2"
+            app:destination="@id/socialMediFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/socialMediFragment"
+        android:name="com.example.demo_android.presentation.fragments.SocialMediFragment"
+        android:label="socialMedi">
+        <action
+            android:id="@+id/action_socialMediFragment_to_phoneUsageFragment2"
+            app:destination="@id/phoneUsageFragment" />
+        <action
+            android:id="@+id/action_socialMediFragment_to_dashboardFragment2"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_socialMediFragment_to_alertsFragment2"
+            app:destination="@id/alertsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.example.demo_android.presentation.fragments.AlertsFragment"
+        android:label="alerts"/>
+</navigation>

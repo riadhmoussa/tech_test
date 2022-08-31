@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInOneFragment">
+
+    <fragment
+        android:id="@+id/signInOneFragment"
+        android:name="com.example.demo_android.presentation.fragments.SignInOneFragment"
+        android:label="signInOne">
+        <action
+            android:id="@+id/action_signInOneFragment_to_signInTwoFragment"
+            app:destination="@id/signInTwoFragment" />
+        <action
+            android:id="@+id/action_signInOneFragment_to_signInThreeFragment"
+            app:destination="@id/signInThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInTwoFragment"
+        android:name="com.example.demo_android.presentation.fragments.SignInTwoFragment"
+        android:label="signInTwo">
+        <action
+            android:id="@+id/action_signInTwoFragment_to_spaceChoseFragment"
+            app:destination="@id/spaceChoseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInThreeFragment"
+        android:name="com.example.demo_android.presentation.fragments.SignInThreeFragment"
+        android:label="signInThree">
+        <action
+            android:id="@+id/action_signInThreeFragment_to_spaceChoseFragment"
+            app:destination="@id/spaceChoseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spaceChoseFragment"
+        android:name="com.example.demo_android.presentation.fragments.SpaceChoseFragment"
+        android:label="spaceChose">
+        <action
+            android:id="@+id/action_spaceChoseFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.demo_android.presentation.fragments.WelcomeFragment"
+        android:label="welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_addDeviceFragment"
+            app:destination="@id/addDeviceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDeviceFragment"
+        android:name="com.example.demo_android.presentation.fragments.AddDeviceFragment"
+        android:label="addDevice">
+        <action
+            android:id="@+id/action_addDeviceFragment_to_addProfileFragment"
+            app:destination="@id/addProfileFragment" />
+        <action
+            android:id="@+id/action_addDeviceFragment_to_confirmProfileFragment"
+            app:destination="@id/confirmProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProfileFragment"
+        android:name="com.example.demo_android.presentation.fragments.AddProfileFragment"
+        android:label="addProfile"/>
+    <fragment
+        android:id="@+id/confirmProfileFragment"
+        android:name="com.example.demo_android.presentation.fragments.ConfirmProfileFragment"
+        android:label="confirmProfile">
+        <action
+            android:id="@+id/action_confirmProfileFragment_to_addChildFragment"
+            app:destination="@id/addChildFragment" />
+        <action
+            android:id="@+id/action_confirmProfileFragment_to_congratsTwoFragment"
+            app:destination="@id/congratsTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratsOneFragment"
+        android:name="com.example.demo_android.presentation.fragments.CongratsOneFragment"
+        android:label="congratsOne">
+        <action
+            android:id="@+id/action_congratsOneFragment_to_addChildFragment"
+            app:destination="@id/addChildFragment" />
+        <action
+            android:id="@+id/action_congratsOneFragment_to_congratsTwoFragment"
+            app:destination="@id/congratsTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratsTwoFragment"
+        android:name="com.example.demo_android.presentation.fragments.CongratsTwoFragment"
+        android:label="congratsTwo">
+
+    </fragment>
+    <fragment
+        android:id="@+id/addChildFragment"
+        android:name="com.example.demo_android.presentation.fragments.AddChildFragment"
+        android:label="addChild">
+        <action
+            android:id="@+id/action_addChildFragment_to_congratsOneFragment"
+            app:destination="@id/congratsOneFragment" />
+        <action
+            android:id="@+id/action_addChildFragment_to_congratsTwoFragment"
+            app:destination="@id/congratsTwoFragment" />
+    </fragment>
+
+
+
+</navigation>

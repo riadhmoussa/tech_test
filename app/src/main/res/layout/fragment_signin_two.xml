@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/primary_color"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="81dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/in_shield_img"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_sign_in"
+                android:textColor="@color/white"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5sp"
+                android:fontFamily="@font/abel_regular"
+                android:textSize="22sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/et_custom"
+                android:fontFamily="@font/abel_regular"
+                android:hint="@string/username"
+                android:padding="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="14sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/et_custom"
+                android:fontFamily="@font/abel_regular"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="14sp"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnSignIn"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:layout_marginTop="63dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="8dp"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/sing_in"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/primary_color"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingTop="10px"
+                        android:paddingBottom="10px"
+                        android:src="@drawable/arrow_forward" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/forget_password"
+                android:textColor="@color/white"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/abel_regular"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>
